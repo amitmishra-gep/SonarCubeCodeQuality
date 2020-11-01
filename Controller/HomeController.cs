@@ -13,5 +13,7 @@ namespace SonarCubeCodeQuality
         {
             return View();
         }
+
+        //Require to much code smells
     }
 }
