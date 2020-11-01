@@ -11,6 +11,7 @@ namespace SonarCubeCodeQuality
         //New Controller Introduced
         public IActionResult Index()
         {
+            var abcd = 1234;
             return View();
         }
     }
