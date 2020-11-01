@@ -15,5 +15,15 @@ namespace SonarCubeCodeQuality
         }
 
         //Require to much code smells
+        public IActionResult Additiona(int a, int b)
+        {
+            return Ok(a + b);
+        }
+
+        //Require to much code smells
+        public IActionResult Additionb(int a, int b)
+        {
+            return Ok(a + b);
+        }
     }
 }
